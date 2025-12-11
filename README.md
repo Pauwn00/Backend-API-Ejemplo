@@ -7,7 +7,7 @@ Backend en FastAPI para aplicación móvil y panel de administrador con autentic
 - 🚀 FastAPI framework
 - 🔐 Autenticación JWT con hasheo de contraseñas (bcrypt)
 - 🗄️ Base de datos SQLite con SQLAlchemy ORM (fácil migración a PostgreSQL/MySQL)
-- 👤 Sistema de usuarios con niveles de skate (1-5)
+- 👤 Sistema de usuarios con email, nombre y contraseña
 - 📝 Endpoints de Login y Signup
 - 📚 Documentación automática con Swagger UI
 

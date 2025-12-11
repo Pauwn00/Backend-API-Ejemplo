@@ -62,8 +62,7 @@ async def signup(user_data: UserCreate, db: Session = Depends(get_db)):
     new_user = User(
         email=user_data.email,
         nombre=user_data.nombre,
-        hashed_password=hashed_password,
-        nivel_skate=user_data.nivel_skate
+        hashed_password=hashed_password
     )
     
     db.add(new_user)
