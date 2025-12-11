@@ -1,12 +1,12 @@
-# Tricklabz Backend API
+# Backend Ejemplo API
 
-Backend en FastAPI para aplicación móvil y panel de administrador con autenticación JWT y base de datos MySQL.
+Backend en FastAPI para aplicación móvil y panel de administrador con autenticación JWT y base de datos SQLite.
 
 ## Características
 
 - 🚀 FastAPI framework
 - 🔐 Autenticación JWT con hasheo de contraseñas (bcrypt)
-- 🗄️ Base de datos MySQL con SQLAlchemy ORM
+- 🗄️ Base de datos SQLite con SQLAlchemy ORM (fácil migración a PostgreSQL/MySQL)
 - 👤 Sistema de usuarios con niveles de skate (1-5)
 - 📝 Endpoints de Login y Signup
 - 📚 Documentación automática con Swagger UI
